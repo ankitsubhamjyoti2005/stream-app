@@ -4,20 +4,20 @@ import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;
 
-public interface videoServices {
+public interface VideoServices {
     //save  video
-    video save(video video, MultipartFile file);
+    Video save(Video video, MultipartFile file);
 
 
     // get video by  id
-    video get(String videoId);
+    Video get(String videoId);
 
 
     // get video by title
 
-    video getByTitle(String title);
+    Video getByTitle(String title);
 
-    List<video> getAll();
+    List<Video> getAll();
 
 
     //video processing

@@ -7,22 +7,22 @@ import lombok.*;
 
 @Entity
 @Table(name = "yt_videos")
-@Getter
 @Setter
+@Getter
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class video {
+public class Video {
 
     @Id
-    private  String videoId;
+    private String videoId;
 
-    private  String title;
+    private String title;
 
-    private  String description;
+    private String description;
 
-    private  String  contentType;
+    private String  contentType;
 
-    private  String filePath;
+    private String filePath;
 
 }
