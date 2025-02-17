@@ -23,6 +23,45 @@ public class Video {
 
     private String  contentType;
 
+    public void setFilePath(String filePath) {
+        this.filePath = filePath;
+    }
+
+    public void setVideoId(String videoId) {
+        this.videoId = videoId;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public void setContentType(String contentType) {
+        this.contentType = contentType;
+    }
+
     private String filePath;
 
+    public String getVideoId() {
+        return videoId;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public String getContentType() {
+        return contentType;
+    }
+
+    public String getFilePath() {
+        return filePath;
+    }
 }
